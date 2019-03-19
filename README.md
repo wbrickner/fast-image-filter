@@ -1,10 +1,10 @@
 # FastImageFilter [Alpha]
 
-FastImageFilter (FIF) applies special 'filters' to images, emphasizing and deamphasizing structures at different length scales.  You write your filter (frequency modifier function), and FIF runs it (quickly). 
+FastImageFilter (FIF) applies spectral filters to images, emphasizing and deemphasizing structures at different length scales.  You write your filter (frequency modifier function), and FIF runs it (quickly). 
 
 # Installation
 
-Installation of FIF should be very straightforward. Simply copy the contents of the `./src/` folder somewhere accessible (probably inside your project).
+Installation of FIF should be very straightforward. Simply copy the contents of the `./src/` folder somewhere accessible to your build system (probably inside your project).
 
 ## Dependencies
 
