@@ -50,7 +50,7 @@ void frequency_modifier(const uint8_t channel,
 
 And now let's apply the filter:
 
-```
+```C++
 int main() {
 	// ...
 
@@ -78,13 +78,13 @@ FIF provides several convenience functions to convert back and forth between int
 
 (You must install PNG++ to use these convenience functions)
 
-```
+```C++
 #include "convenience_png++.hpp"
 ```
 
 Provides the following functions in the `fif` namespace:
 
-```
+```C++
 void image_from_linear(double *linear,
                        png::image<png::rgb_pixel> &img,
                        const uint16_t width,
