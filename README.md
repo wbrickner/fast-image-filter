@@ -21,17 +21,18 @@ These dependencies are recommended, because they can make your life easie.
 
 # Usage
 
-Let's filter the red frequency space, eliminating the top 98% of frequencies, while emphasizing the bottom 2% (the lowest frequencies).
+Let's filter the red frequency space, eliminating the top 98% of frequencies, while emphasizing the bottom 2% (the lowest frequencies). 
 
 ```C++
 void frequency_modifier(const uint8_t channel,
-							 const uint16_t width,
-							 const uint16_t height, 
+                        const uint16_t width,
+                        const uint16_t height, 
                         double *freq_space, 
                         double *image_space) {
 	// only filter the red channel
 	if (channel != 0) { return }
 	
+	// this is arbitrary, so let's pick width (for fun)
 	const uint16_t threshold = width * 0.02f;
 	
 	// the freq_space is a linear array encoding a 2D frequency space
@@ -63,6 +64,8 @@ int main() {
 	
 	// apply the filter
 	fif::filter_image(img, false, &frequency_modifier);
+	
+	// congrats, `img` is now modified
 }
 ```
 
