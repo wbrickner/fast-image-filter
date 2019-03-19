@@ -12,7 +12,7 @@ The following dependencies are **required**:
 
 * **[FFTW](http://www.fftw.org/download.html)** - used for efficiently applying Fourier transforms under the hood.  You will need to link against `libfftw3.a`.
 
-The following dependencies are **optional**.
+The following dependencies are **optional**:
 
 These dependencies are recommended, because they can make your life easie. 
 *FIF provides convenience methods to efficiently convert from PNG++ image representation to FIF image representation.*
