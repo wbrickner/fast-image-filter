@@ -9,7 +9,7 @@
 #ifndef FastImageFilter_hpp
 #define FastImageFilter_hpp
 
-#include <cstdint> // to use uint32_t
+#include <cstdint> // to use uint8_t, uint16_t, and uint32_t
 
 // NOTE: self-optimization happens before image manipulation and
 //       can signficantly shorten execution time on very large
