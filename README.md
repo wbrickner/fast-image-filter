@@ -14,7 +14,7 @@ The following dependencies are **required**:
 
 The following dependencies are **optional**:
 
-These dependencies are recommended, because they can make your life easie. 
+These dependencies are recommended, because they can make your life easier. 
 *FIF provides convenience methods to efficiently convert from PNG++ image representation to FIF image representation.*
 
 * **[PNG++](https://www.nongnu.org/pngpp/)** - can used to load PNG images.  You will need to link against `libpng.a`, `libpng16.a`, or similar.
